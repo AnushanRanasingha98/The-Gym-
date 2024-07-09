@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url(images/login-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(9px);
+    border: none;
+}
+
+.login{
+    background-color: black;
+    width: 350px;
+    margin: 200px auto;
+    border: none;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: none;
+}
+
+p.error{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+p.info{
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(251, 148, 5);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+button{
+    background-color:gold;
+    color:black;
+    font-weight: bold;
+}
+
+label{
+    color: aliceblue;
+}
